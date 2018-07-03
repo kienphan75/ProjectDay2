@@ -12,6 +12,7 @@
 		BCEE6CFB20EB3180002064B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEE6CF920EB3180002064B4 /* Main.storyboard */; };
 		BCEE6CFD20EB3180002064B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEE6CFC20EB3180002064B4 /* Assets.xcassets */; };
 		BCEE6D0020EB3180002064B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEE6CFE20EB3180002064B4 /* LaunchScreen.storyboard */; };
+		BCEE6D0A20EB39DD002064B4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE6D0920EB39DD002064B4 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BCEE6CFC20EB3180002064B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCEE6CFF20EB3180002064B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCEE6D0120EB3180002064B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEE6D0920EB39DD002064B4 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				BCEE6CFC20EB3180002064B4 /* Assets.xcassets */,
 				BCEE6CFE20EB3180002064B4 /* LaunchScreen.storyboard */,
 				BCEE6D0120EB3180002064B4 /* Info.plist */,
+				BCEE6D0920EB39DD002064B4 /* ViewController2.swift */,
 			);
 			path = TrainingExe2;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				BCEE6CF820EB3180002064B4 /* ViewController.swift in Sources */,
 				BCEE6CF620EB3180002064B4 /* AppDelegate.swift in Sources */,
+				BCEE6D0A20EB39DD002064B4 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +280,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrainingExe2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meoteam.kienphan.TrainingExe2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TrainingExe2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meoteam.kienphan.TrainingExe2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
