@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCEC69ED20ECBFF8007CD603 /* ExtendString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEC69EC20ECBFF8007CD603 /* ExtendString.swift */; };
 		BCEE6CF620EB3180002064B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE6CF520EB3180002064B4 /* AppDelegate.swift */; };
 		BCEE6CF820EB3180002064B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE6CF720EB3180002064B4 /* ViewController.swift */; };
 		BCEE6CFB20EB3180002064B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEE6CF920EB3180002064B4 /* Main.storyboard */; };
 		BCEE6CFD20EB3180002064B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEE6CFC20EB3180002064B4 /* Assets.xcassets */; };
 		BCEE6D0020EB3180002064B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEE6CFE20EB3180002064B4 /* LaunchScreen.storyboard */; };
 		BCEE6D0A20EB39DD002064B4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE6D0920EB39DD002064B4 /* ViewController2.swift */; };
+		BCEE6D0D20EB5924002064B4 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE6D0C20EB5924002064B4 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BCEC69EC20ECBFF8007CD603 /* ExtendString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendString.swift; sourceTree = "<group>"; };
 		BCEE6CF220EB3180002064B4 /* TrainingExe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingExe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEE6CF520EB3180002064B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCEE6CF720EB3180002064B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		BCEE6CFF20EB3180002064B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCEE6D0120EB3180002064B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCEE6D0920EB39DD002064B4 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BCEE6D0C20EB5924002064B4 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		BCEE6CF420EB3180002064B4 /* TrainingExe2 */ = {
 			isa = PBXGroup;
 			children = (
+				BCEE6D0B20EB5910002064B4 /* View */,
 				BCEE6CF520EB3180002064B4 /* AppDelegate.swift */,
 				BCEE6CF720EB3180002064B4 /* ViewController.swift */,
 				BCEE6CF920EB3180002064B4 /* Main.storyboard */,
@@ -63,8 +68,17 @@
 				BCEE6CFE20EB3180002064B4 /* LaunchScreen.storyboard */,
 				BCEE6D0120EB3180002064B4 /* Info.plist */,
 				BCEE6D0920EB39DD002064B4 /* ViewController2.swift */,
+				BCEC69EC20ECBFF8007CD603 /* ExtendString.swift */,
 			);
 			path = TrainingExe2;
+			sourceTree = "<group>";
+		};
+		BCEE6D0B20EB5910002064B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE6D0C20EB5924002064B4 /* CheckBox.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEC69ED20ECBFF8007CD603 /* ExtendString.swift in Sources */,
+				BCEE6D0D20EB5924002064B4 /* CheckBox.swift in Sources */,
 				BCEE6CF820EB3180002064B4 /* ViewController.swift in Sources */,
 				BCEE6CF620EB3180002064B4 /* AppDelegate.swift in Sources */,
 				BCEE6D0A20EB39DD002064B4 /* ViewController2.swift in Sources */,
@@ -279,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z2J856649;
 				INFOPLIST_FILE = TrainingExe2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -294,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z2J856649;
 				INFOPLIST_FILE = TrainingExe2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
